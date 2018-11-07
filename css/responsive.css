@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 850px) {
-  header {
+  header, main {
     width: 850px;
     margin-left: auto;
     margin-right: auto;

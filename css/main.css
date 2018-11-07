@@ -52,3 +52,19 @@ body {
   float: right;
   margin: 0;
 }
+
+/*
+ *
+ * Hero
+ *
+ */
+
+ .hero {
+  width: 100%;
+  height: auto;
+  margin: 2em 0;
+}
+
+.hero img {
+  width: 100%;
+}
