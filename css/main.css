@@ -90,6 +90,12 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio__item {
+  width: 100%;
 }
 
 .portfolio__item img {

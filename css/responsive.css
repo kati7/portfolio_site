@@ -1,4 +1,20 @@
 
+@media screen and (min-width: 600px) {
+  .portfolio__item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .portfolio__item {
+    width: 33.3333%;
+  }
+
+  .portfolio__item figure {
+    margin: 0.25em 0.75em;
+  }
+}
+
 @media screen and (min-width: 769px) {
   .header__title__name {
     font-size: 3em;
@@ -9,9 +25,9 @@
   }
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 960px) {
   header, main {
-    width: 850px;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
   }
