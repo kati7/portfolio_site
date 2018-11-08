@@ -16,7 +16,7 @@ body {
  *
  */
 
- .header {
+.header {
   border-bottom: 5px solid #7d97ad;
   min-height: 100px;
   transition: min-height 0.3s;
@@ -59,7 +59,7 @@ body {
  *
  */
 
- .hero {
+.hero {
   width: 100%;
   height: auto;
   margin: 2em 0;
@@ -68,3 +68,47 @@ body {
 .hero img {
   width: 100%;
 }
+
+/*
+ *
+ * Portfolio
+ *
+ */ 
+
+.portfolio {
+  width: 100%;
+}
+
+.portfolio__header {
+  color: #7d97ad;
+  font-weight: 400;
+  font-size: 2em; 
+  text-align: center;
+}
+
+.portfolio ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio__item img {
+  width: 100%;
+}
+
+.portfolio__item figcaption {
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.portfolio__item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.portfolio__item a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
