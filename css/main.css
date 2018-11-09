@@ -8,6 +8,7 @@ body, html {
 body {
   font-family: Roboto;
   color: #2d3c49;
+  background-color: azure;
 }
 
 /*
@@ -71,12 +72,29 @@ body {
 
 /*
  *
+ * About me
+ *
+ */
+
+.about-me {
+  width: 100%;
+ }
+
+.my-image {
+  width: 30%;
+  float: left;
+  margin-right: 1em;
+}
+
+/*
+ *
  * Portfolio
  *
  */ 
 
 .portfolio {
   width: 100%;
+  clear: left;
 }
 
 .portfolio__header {
@@ -116,5 +134,26 @@ body {
 .portfolio__item a:hover {
   text-decoration: underline;
   color: blue;
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+ footer {
+  border-top: 2px solid #7d97ad;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  padding: 1.5em;
 }
 
