@@ -15,11 +15,11 @@
 }
 
 @media screen and (min-width: 769px) {
-  .header__title__name {
+  .header__title--name {
     font-size: 3em;
   }
 
-  .header__title__role {
+  .header__title--role {
     font-size: 1.2em;
   }
 }
